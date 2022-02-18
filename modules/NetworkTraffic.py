@@ -10,7 +10,8 @@ class NetworkTraffic:
     # Transfer_ID is excluded from this import
 
     self.trimmed_all_data = self.turnInto2DArray()
-    self.data = np.delete(self.trimmed_all_data, 24, 1)
+    self.data = np.delete(self.trimmed_all_data, 24, 1) # Remove labels
+    self.data = np.delete(self.data, 0, 1) # Remove report_sec
     self.target = self.trimmed_all_data[:,-1]
     #print(self.data)
     #print(self.target)
