@@ -12,8 +12,8 @@ class NetworkTraffic:
     self.trimmed_all_data = self.turnInto2DArray()
     self.data = np.delete(self.trimmed_all_data, 24, 1)
     self.target = self.trimmed_all_data[:,-1]
-    print(self.data)
-    print(self.target)
+    #print(self.data)
+    #print(self.target)
   
   # Only need one time slice from packet info
   def pick10thReportSec(self, d):
