@@ -8,8 +8,12 @@ from sklearn import preprocessing, model_selection
 class NetworkTraffic:
   def __init__(self, filename=None, doNorm=False, doNormAll=False):
     self.all_data = None
+
+    # Import specific file
     if filename != None:
       self.all_data = np.genfromtxt(filename, dtype=None, delimiter=",", names=True, excludelist=["transfer_id_"], autostrip=True, usecols=range(1,26))
+    
+    # Import all files as single array 
     else:
       from os import listdir, chdir
       chdir("../../../data")
@@ -33,8 +37,6 @@ class NetworkTraffic:
       else:
         self.x_train, self.x_test, self.y_train, self.y_test = self.normalize()
 
-    #print(self.data)
-    #print(self.target)
   def createSets(self):
     x_train, x_val, y_train, y_val = model_selection.train_test_split(self.data, self.target, test_size=0.4, random_state=508)
     x_val, x_test, y_val, y_test = model_selection.train_test_split(x_val, y_val, test_size=0.45, random_state=508)
@@ -57,9 +59,12 @@ class NetworkTraffic:
   
   # Normalize the data with a standard scaler if enabled
   def normalize(self, all=False):
+    # Apply scaler to all data before splitting
     if all:
       scaler = preprocessing.MinMaxScaler().fit(self.data)
       self.data = scaler.transform(self.data)
+    
+    # Apply scaler to train and test data separately
     else:
       xtr, xte, ytr, yte = model_selection.train_test_split(self.data, self.target, test_size=0.4, random_state=508)
       scaler = preprocessing.MinMaxScaler().fit(xtr)
