@@ -1,0 +1,128 @@
+{
+  "0.2": {
+    "RandomForestClassifier()": {
+      "Accuracy": 0.9838683127572015,
+      "Balanced Accuracy": 0.9837921784172268,
+      "F1 Micro": 0.9838683127572015,
+      "Precision Micro": 0.9838683127572015,
+      "Recall Micro": 0.9838683127572015,
+      "Runtime": 0.5318236805555535
+    },
+    "GradientBoostingClassifier()": {
+      "Accuracy": 0.9881481481481482,
+      "Balanced Accuracy": 0.988117679754917,
+      "F1 Micro": 0.9881481481481482,
+      "Precision Micro": 0.9881481481481482,
+      "Recall Micro": 0.9881481481481482,
+      "Runtime": 7.0949149398888895
+    },
+    "DecisionTreeClassifier()": {
+      "Accuracy": 0.9794238683127572,
+      "Balanced Accuracy": 0.979353715666352,
+      "F1 Micro": 0.9794238683127572,
+      "Precision Micro": 0.9794238683127572,
+      "Recall Micro": 0.9794238683127572,
+      "Runtime": 0.014829975888888767
+    },
+    "MLPClassifier()": {
+      "Accuracy": 0.6748971193415638,
+      "Balanced Accuracy": 0.6751577867176236,
+      "F1 Micro": 0.6748971193415638,
+      "Precision Micro": 0.6748971193415638,
+      "Recall Micro": 0.6748971193415638,
+      "Runtime": 3.791205959777778
+    },
+    "LinearSVC()": {
+      "Accuracy": 0.6609053497942387,
+      "Balanced Accuracy": 0.654712801446132,
+      "F1 Micro": 0.6609053497942387,
+      "Precision Micro": 0.6609053497942387,
+      "Recall Micro": 0.6609053497942387,
+      "Runtime": 1.4708291033333372
+    }
+  },
+  "0.4": {
+    "RandomForestClassifier()": {
+      "Accuracy": 0.9871604938271604,
+      "Balanced Accuracy": 0.9868172006982662,
+      "F1 Micro": 0.9871604938271604,
+      "Precision Micro": 0.9871604938271604,
+      "Recall Micro": 0.9871604938271604,
+      "Runtime": 0.5554760932222172
+    },
+    "GradientBoostingClassifier()": {
+      "Accuracy": 0.9896296296296296,
+      "Balanced Accuracy": 0.9894102760023584,
+      "F1 Micro": 0.9896296296296296,
+      "Precision Micro": 0.9896296296296296,
+      "Recall Micro": 0.9896296296296296,
+      "Runtime": 7.42389995477777
+    },
+    "DecisionTreeClassifier()": {
+      "Accuracy": 0.9832098765432098,
+      "Balanced Accuracy": 0.9828625824118833,
+      "F1 Micro": 0.9832098765432098,
+      "Precision Micro": 0.9832098765432098,
+      "Recall Micro": 0.9832098765432098,
+      "Runtime": 0.017290792444444807
+    },
+    "MLPClassifier()": {
+      "Accuracy": 0.588312757201646,
+      "Balanced Accuracy": 0.5855089844201407,
+      "F1 Micro": 0.588312757201646,
+      "Precision Micro": 0.588312757201646,
+      "Recall Micro": 0.588312757201646,
+      "Runtime": 2.9110386343333357
+    },
+    "LinearSVC()": {
+      "Accuracy": 0.6325925925925926,
+      "Balanced Accuracy": 0.6301653029981995,
+      "F1 Micro": 0.6325925925925926,
+      "Precision Micro": 0.6325925925925926,
+      "Recall Micro": 0.6325925925925926,
+      "Runtime": 1.485448208888894
+    }
+  },
+  "0.6": {
+    "RandomForestClassifier()": {
+      "Accuracy": 0.9861728395061728,
+      "Balanced Accuracy": 0.9857767795625065,
+      "F1 Micro": 0.9861728395061728,
+      "Precision Micro": 0.9861728395061728,
+      "Recall Micro": 0.9861728395061728,
+      "Runtime": 0.5192206925555575
+    },
+    "GradientBoostingClassifier()": {
+      "Accuracy": 0.9897942386831277,
+      "Balanced Accuracy": 0.9893337788507899,
+      "F1 Micro": 0.9897942386831277,
+      "Precision Micro": 0.9897942386831277,
+      "Recall Micro": 0.9897942386831277,
+      "Runtime": 7.209623644333344
+    },
+    "DecisionTreeClassifier()": {
+      "Accuracy": 0.9810699588477365,
+      "Balanced Accuracy": 0.9802620490179764,
+      "F1 Micro": 0.9810699588477365,
+      "Precision Micro": 0.9810699588477365,
+      "Recall Micro": 0.9810699588477365,
+      "Runtime": 0.015056126666656332
+    },
+    "MLPClassifier()": {
+      "Accuracy": 0.591440329218107,
+      "Balanced Accuracy": 0.5862680603474272,
+      "F1 Micro": 0.591440329218107,
+      "Precision Micro": 0.591440329218107,
+      "Recall Micro": 0.591440329218107,
+      "Runtime": 3.3602582145555413
+    },
+    "LinearSVC()": {
+      "Accuracy": 0.6090534979423867,
+      "Balanced Accuracy": 0.6148383967188354,
+      "F1 Micro": 0.6090534979423867,
+      "Precision Micro": 0.6090534979423867,
+      "Recall Micro": 0.6090534979423867,
+      "Runtime": 1.5332250607777762
+    }
+  }
+}
