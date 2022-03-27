@@ -6,8 +6,9 @@ import numpy as np
 from sklearn import preprocessing, model_selection
 
 class NetworkTraffic:
-  def __init__(self, filename=None, doNorm=False, doNormAll=False):
+  def __init__(self, filename=None, testSize=0.4, doNorm=False, doNormAll=False):
     self.all_data = None
+    self.testSize = testSize
 
     # Import specific file
     if filename != None:
@@ -38,7 +39,7 @@ class NetworkTraffic:
         self.x_train, self.x_test, self.y_train, self.y_test = self.normalize()
 
   def createSets(self):
-    x_train, x_val, y_train, y_val = model_selection.train_test_split(self.data, self.target, test_size=0.4, random_state=508)
+    x_train, x_val, y_train, y_val = model_selection.train_test_split(self.data, self.target, test_size=self.testSize, random_state=508)
     x_val, x_test, y_val, y_test = model_selection.train_test_split(x_val, y_val, test_size=0.45, random_state=508)
     return [x_train, x_val, x_test, y_train, y_val, y_test]
 
@@ -66,7 +67,7 @@ class NetworkTraffic:
     
     # Apply scaler to train and test data separately
     else:
-      xtr, xte, ytr, yte = model_selection.train_test_split(self.data, self.target, test_size=0.4, random_state=508)
+      xtr, xte, ytr, yte = model_selection.train_test_split(self.data, self.target, test_size=self.testSize, random_state=508)
       scaler = preprocessing.MinMaxScaler().fit(xtr)
       xtr = scaler.transform(xtr)
       xte = scaler.transform(xte)
