@@ -1,0 +1,4 @@
+Test Size,Model,Accuracy,Runtime
+0.2,AutoSklearn2Classifier(memory_limit=4096 metric=accuracy n_jobs=-1 per_run_time_limit=12  time_left_for_this_task=30),0.9901234567901235,12.74088383022222
+0.4,AutoSklearn2Classifier(memory_limit=4096 metric=accuracy, n_jobs=-1 per_run_time_limit=12  time_left_for_this_task=30),0.9899588477366257,12.265235161666665
+0.6,AutoSklearn2Classifier(memory_limit=4096 metric=accuracy n_jobs=-1 per_run_time_limit=12 time_left_for_this_task=30),0.9914403292181072,11.85548326633333
