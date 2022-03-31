@@ -32,9 +32,6 @@ class NetworkTraffic:
     self.target = self.trimmed_all_data[:,-1]
     self.target = self.target.astype(int)
 
-    print(self.data)
-    print(self.target)
-
     if doNorm == True:
       if doNormAll == True:
         self.normalize(True)
