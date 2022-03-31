@@ -11,26 +11,29 @@ class NetworkTraffic:
     self.testSize = testSize
 
     # Import specific file
-    if filename != None:
+    if type(filename) == str:
       self.all_data = np.genfromtxt(filename, dtype=None, delimiter=",", names=True, excludelist=["transfer_id_"], autostrip=True, usecols=range(1,26))
     
     # Import all files as single array 
-    else:
-      from os import listdir, chdir
-      chdir("../../../data")
-      for file in listdir():
+    elif type(filename) == list:
+      for file in filename:
         if file.endswith(".csv"):
           try:
             self.all_data = np.vstack(np.genfromtxt(file, dtype=None, delimiter=",", names=True, excludelist=["transfer_id_"], autostrip=True, usecols=range(1,26)))
           except:
             self.all_data = np.genfromtxt(file, dtype=None, delimiter=",", names=True, excludelist=["transfer_id_"], autostrip=True, usecols=range(1,26))
-      print(self.all_data.shape)
+      #print(self.all_data.shape)
     # Transfer_ID is excluded from this import
     
     self.trimmed_all_data = self.turnInto2DArray()
     self.data = np.delete(self.trimmed_all_data, 24, 1) # Remove labels
     self.data = np.delete(self.data, 0, 1) # Remove report_sec
+    self.data = self.data.astype(float)
     self.target = self.trimmed_all_data[:,-1]
+    self.target = self.target.astype(int)
+
+    print(self.data)
+    print(self.target)
 
     if doNorm == True:
       if doNormAll == True:
