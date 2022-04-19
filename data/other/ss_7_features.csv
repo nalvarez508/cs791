@@ -1,0 +1,9 @@
+feature,normalizer
+minrtt,rtt_avg
+rtt_std,rtt_avg
+unacked,cwnd
+ssthresh,cwnd
+retrans,segs_out
+dsack_dups,segs_out
+reord_seen,segs_out
+notsent,segs_out
