@@ -1,0 +1,16 @@
+Transfer,CC,Model,Accuracy
+chameleon -> expanse,bbr,DecisionTreeClassifier(),79.15
+chameleon -> expanse,bbr,GradientBoostingClassifier(),79.7
+chameleon -> expanse,bbr,LinearSVC(),16.67
+chameleon -> expanse,bbr,MLPClassifier(),16.67
+chameleon -> expanse,bbr,RandomForestClassifier(),71.89
+chameleon -> expanse,cubic,DecisionTreeClassifier(),70.67
+chameleon -> expanse,cubic,GradientBoostingClassifier(),57
+chameleon -> expanse,cubic,LinearSVC(),16.67
+chameleon -> expanse,cubic,MLPClassifier(),16.67
+chameleon -> expanse,cubic,RandomForestClassifier(),59.52
+chameleon -> expanse,htcp,DecisionTreeClassifier(),67.52
+chameleon -> expanse,htcp,GradientBoostingClassifier(),74.04
+chameleon -> expanse,htcp,LinearSVC(),16.67
+chameleon -> expanse,htcp,MLPClassifier(),16.67
+chameleon -> expanse,htcp,RandomForestClassifier(),65.37
