@@ -5,23 +5,27 @@
 import numpy as np
 import pandas as pd
 from sklearn import preprocessing, model_selection
+from copy import deepcopy
 
 class NetworkTraffic:
   def __init__(self, filename=None, testSize=0.4, doNorm=False, doNormAll=False, doTransform=False):
     self.all_data = None
     self.testSize = testSize
-    self.features = features = pd.read_csv("../../ss_7_features.csv")
-    self.feature_list = list(features.feature.values)
+    self.features = pd.read_csv("../ss_7_features.csv")
+    self.feature_list = list(self.features.feature.values)
 
     # Import specific file
     if type(filename) == str:
       if doTransform:
         df = pd.read_csv(filename)
         df = df.sort_values(by=['label']).reset_index().drop(columns=["index"])
+        df.fillna(df.groupby(['label'], as_index=False).mean(), inplace=True)
 
         for index, row in self.features.iterrows():
           df[row['feature']] = df[row['feature']] / df[row['normalizer']]
-        self.all_data = df
+
+        df.replace([np.inf, -np.inf, np.nan], 0, inplace=True)
+        self.all_data = deepcopy(df)
 
       else: self.all_data = np.genfromtxt(filename, dtype=None, delimiter=",", names=True, excludelist=["transfer_id_"], autostrip=True, usecols=range(1,26))
     
@@ -29,25 +33,39 @@ class NetworkTraffic:
     elif type(filename) == list:
       for file in filename:
         if file.endswith(".csv"):
-          try:
-            self.all_data = np.vstack(np.genfromtxt(file, dtype=None, delimiter=",", names=True, excludelist=["transfer_id_"], autostrip=True, usecols=range(1,26)))
-          except:
-            self.all_data = np.genfromtxt(file, dtype=None, delimiter=",", names=True, excludelist=["transfer_id_"], autostrip=True, usecols=range(1,26))
+          if doTransform:
+            df = pd.read_csv(file)
+            df = df.sort_values(by=['label']).reset_index().drop(columns=["index"])
+            df.fillna(df.groupby(['label'], as_index=False).mean(), inplace=True)
+            for index, row in self.features.iterrows():
+              df[row['feature']] = df[row['feature']] / df[row['normalizer']]
+            df.replace([np.inf, -np.inf, np.nan], 0, inplace=True)
+            try:
+              self.all_data = pd.concat([self.all_data, df])
+            except Exception as e:
+              print(e)
+              self.all_data = df
+          else:
+            try:
+              self.all_data = np.vstack(np.genfromtxt(file, dtype=None, delimiter=",", names=True, excludelist=["transfer_id_"], autostrip=True, usecols=range(1,26)))
+            except:
+              self.all_data = np.genfromtxt(file, dtype=None, delimiter=",", names=True, excludelist=["transfer_id_"], autostrip=True, usecols=range(1,26))
       #print(self.all_data.shape)
     # Transfer_ID is excluded from this import
     
     if not doTransform: self.trimmed_all_data = self.turnInto2DArray()
     if doTransform:
-      self.allData = self.allData[self.allData.report_sec == 10]
-      self.data = self.allData[self.feature_list]
-      pd.to_numeric(self.data)
+      self.all_data = self.all_data[self.all_data.report_sec == 10]
+      self.data = self.all_data[self.feature_list]
+
+      #pd.to_numeric(self.data)
     else:
       self.data = np.delete(self.trimmed_all_data, 24, 1) # Remove labels
       self.data = np.delete(self.data, 0, 1) # Remove report_sec
       self.data = self.data.astype(float)
     if doTransform:
-      self.target = self.allData.label
-      pd.to_numeric(self.target)
+      self.target = self.all_data.label
+      #pd.to_numeric(self.target)
     else:
       self.target = self.trimmed_all_data[:,-1]
       self.target = self.target.astype(int)
