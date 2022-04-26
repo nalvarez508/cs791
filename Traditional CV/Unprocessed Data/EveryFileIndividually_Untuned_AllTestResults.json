@@ -1,0 +1,202 @@
+{
+  "0.4": {
+    "b100d100.csv": {
+      "RandomForestClassifier()": {
+        "Accuracy": 0.9666666666666668,
+        "Std Dev": 0.021500630035111098
+      },
+      "GradientBoostingClassifier()": {
+        "Accuracy": 0.9781481481481482,
+        "Std Dev": 0.01450604150190083
+      },
+      "DecisionTreeClassifier()": {
+        "Accuracy": 0.9607407407407408,
+        "Std Dev": 0.014740554623801755
+      },
+      "MLPClassifier()": {
+        "Accuracy": 0.6340740740740741,
+        "Std Dev": 0.12722963480480937
+      },
+      "LinearSVC()": {
+        "Accuracy": 0.5611111111111111,
+        "Std Dev": 0.1312595936790322
+      }
+    },
+    "b5000d10.csv": {
+      "RandomForestClassifier()": {
+        "Accuracy": 0.9962962962962963,
+        "Std Dev": 0.004057204129667882
+      },
+      "GradientBoostingClassifier()": {
+        "Accuracy": 0.9992592592592592,
+        "Std Dev": 0.0009072184232530438
+      },
+      "DecisionTreeClassifier()": {
+        "Accuracy": 0.9951851851851853,
+        "Std Dev": 0.0054433105395181825
+      },
+      "MLPClassifier()": {
+        "Accuracy": 0.638888888888889,
+        "Std Dev": 0.06097065790057156
+      },
+      "LinearSVC()": {
+        "Accuracy": 0.5633333333333332,
+        "Std Dev": 0.07959430741133947
+      }
+    },
+    "b1000d30.csv": {
+      "RandomForestClassifier()": {
+        "Accuracy": 0.9874074074074073,
+        "Std Dev": 0.006457628064504726
+      },
+      "GradientBoostingClassifier()": {
+        "Accuracy": 0.9925925925925926,
+        "Std Dev": 0.0051052032415149
+      },
+      "DecisionTreeClassifier()": {
+        "Accuracy": 0.9814814814814815,
+        "Std Dev": 0.008445743889623252
+      },
+      "MLPClassifier()": {
+        "Accuracy": 0.7133333333333333,
+        "Std Dev": 0.06770183966961461
+      },
+      "LinearSVC()": {
+        "Accuracy": 0.6496296296296297,
+        "Std Dev": 0.05477726441549443
+      }
+    },
+    "b1000d100.csv": {
+      "RandomForestClassifier()": {
+        "Accuracy": 0.9696296296296296,
+        "Std Dev": 0.021836152552568433
+      },
+      "GradientBoostingClassifier()": {
+        "Accuracy": 0.9725925925925927,
+        "Std Dev": 0.019365802166520552
+      },
+      "DecisionTreeClassifier()": {
+        "Accuracy": 0.9603703703703704,
+        "Std Dev": 0.02302858008401453
+      },
+      "MLPClassifier()": {
+        "Accuracy": 0.63,
+        "Std Dev": 0.12961058061095942
+      },
+      "LinearSVC()": {
+        "Accuracy": 0.7003703703703704,
+        "Std Dev": 0.07625853074679455
+      }
+    },
+    "b100d30.csv": {
+      "RandomForestClassifier()": {
+        "Accuracy": 0.9896296296296295,
+        "Std Dev": 0.004475202212442454
+      },
+      "GradientBoostingClassifier()": {
+        "Accuracy": 0.9937037037037036,
+        "Std Dev": 0.00447520221244243
+      },
+      "DecisionTreeClassifier()": {
+        "Accuracy": 0.9874074074074073,
+        "Std Dev": 0.004124269898392639
+      },
+      "MLPClassifier()": {
+        "Accuracy": 0.6407407407407408,
+        "Std Dev": 0.09048717406025095
+      },
+      "LinearSVC()": {
+        "Accuracy": 0.6551851851851852,
+        "Std Dev": 0.11233523218284974
+      }
+    },
+    "b1000d10.csv": {
+      "RandomForestClassifier()": {
+        "Accuracy": 0.9970370370370369,
+        "Std Dev": 0.004319223625811317
+      },
+      "GradientBoostingClassifier()": {
+        "Accuracy": 0.9974074074074075,
+        "Std Dev": 0.0014814814814814558
+      },
+      "DecisionTreeClassifier()": {
+        "Accuracy": 0.9974074074074075,
+        "Std Dev": 0.002222222222222207
+      },
+      "MLPClassifier()": {
+        "Accuracy": 0.5974074074074075,
+        "Std Dev": 0.0819648959622107
+      },
+      "LinearSVC()": {
+        "Accuracy": 0.5681481481481481,
+        "Std Dev": 0.06927411209326334
+      }
+    },
+    "b100d10.csv": {
+      "RandomForestClassifier()": {
+        "Accuracy": 0.9951851851851851,
+        "Std Dev": 0.004157397096415508
+      },
+      "GradientBoostingClassifier()": {
+        "Accuracy": 0.9981481481481481,
+        "Std Dev": 0.0023424278964210075
+      },
+      "DecisionTreeClassifier()": {
+        "Accuracy": 0.9977777777777778,
+        "Std Dev": 0.001385799032138472
+      },
+      "MLPClassifier()": {
+        "Accuracy": 0.6133333333333334,
+        "Std Dev": 0.06692747338800045
+      },
+      "LinearSVC()": {
+        "Accuracy": 0.6425925925925926,
+        "Std Dev": 0.03973506224315954
+      }
+    },
+    "b5000d30.csv": {
+      "RandomForestClassifier()": {
+        "Accuracy": 0.9822222222222223,
+        "Std Dev": 0.007276623223847585
+      },
+      "GradientBoostingClassifier()": {
+        "Accuracy": 0.9925925925925926,
+        "Std Dev": 0.003098740839015106
+      },
+      "DecisionTreeClassifier()": {
+        "Accuracy": 0.9866666666666667,
+        "Std Dev": 0.004596175424441071
+      },
+      "MLPClassifier()": {
+        "Accuracy": 0.6214814814814815,
+        "Std Dev": 0.09393544758373806
+      },
+      "LinearSVC()": {
+        "Accuracy": 0.6488888888888888,
+        "Std Dev": 0.09109605416084864
+      }
+    },
+    "b5000d100.csv": {
+      "RandomForestClassifier()": {
+        "Accuracy": 0.9603703703703704,
+        "Std Dev": 0.03483450979563702
+      },
+      "GradientBoostingClassifier()": {
+        "Accuracy": 0.9666666666666666,
+        "Std Dev": 0.027191340508115048
+      },
+      "DecisionTreeClassifier()": {
+        "Accuracy": 0.9496296296296297,
+        "Std Dev": 0.02973130702279924
+      },
+      "MLPClassifier()": {
+        "Accuracy": 0.6151851851851851,
+        "Std Dev": 0.0735854252879931
+      },
+      "LinearSVC()": {
+        "Accuracy": 0.6414814814814814,
+        "Std Dev": 0.09933661993623827
+      }
+    }
+  }
+}

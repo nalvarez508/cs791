@@ -1,0 +1,12 @@
+{
+  "0.4": {
+    "AutoSklearn2Classifier(memory_limit=4096, metric=accuracy, n_jobs=-1,\n                       per_run_time_limit=12, time_left_for_this_task=30)": {
+      "Accuracy": 0.9417283950617283,
+      "Balanced Accuracy": 0.9398888712726049,
+      "F1 Micro": 0.9417283950617283,
+      "Precision Micro": 0.9417283950617283,
+      "Recall Micro": 0.9417283950617283,
+      "Runtime": 13.88908158633333
+    }
+  }
+}

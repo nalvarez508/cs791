@@ -111,24 +111,4 @@ class NetworkTraffic:
       xte = scaler.transform(xte)
       return [xtr, xte, ytr, yte]
 
-class NT2:
-  def __init__(self, filename=None, transform=False, drop=True):
-    self.df = pd.read_csv(filename)
-    self.features = pd.read_csv('../ss_7_features.csv')
-    self.feature_list = list(self.features.feature.values)
-    self.setup(transform)
-    self.data = self.df.drop('label', axis=1)
-    if drop: self.data = self.data[self.feature_list]
-    self.target = self.df.label
-  
-  def setup(self, t):
-    self.df = self.df.sort_values(by=['label']).reset_index().drop(columns=["index"])
-    self.df = self.df[self.df.label.isin(list(range(1,7)))] 
-    self.df.fillna(self.df.groupby(['label'], as_index=False).mean(), inplace=True)
-
-    if t:
-      for index, row in self.features.iterrows():
-        self.df[row['feature']] = self.df[row['feature']] / self.df[row['normalizer']]
-
-    self.df.replace([np.inf, -np.inf, np.nan], 0, inplace=True)
-    self.df = self.df[self.df.report_sec == 10]
+# Normalize coding time 24:39
