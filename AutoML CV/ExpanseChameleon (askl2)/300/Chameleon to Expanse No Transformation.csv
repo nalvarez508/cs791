@@ -1,0 +1,4 @@
+Transfer,CC,Model,Accuracy
+chameleon -> expanse,cubic,AutoSklearn2Classifier(memory_limit=4096; metric=accuracy; n_jobs=-1;                       per_run_time_limit=120; time_left_for_this_task=300),55.0
+chameleon -> expanse,htcp,AutoSklearn2Classifier(memory_limit=4096; metric=accuracy; n_jobs=-1;                       per_run_time_limit=120; time_left_for_this_task=300),62.19
+chameleon -> expanse,bbr,AutoSklearn2Classifier(memory_limit=4096; metric=accuracy; n_jobs=-1;                       per_run_time_limit=120; time_left_for_this_task=300),62.81
