@@ -1,12 +1,12 @@
-AutoML (askl) Processed - Ready
-AutoML (askl) Processed - Transform - Ready
-AutoML (askl2) Processed
-AutoML (askl2) Processed - Transform
+AutoML (askl) Processed - Done
+AutoML (askl) Processed - Transform - Done
+AutoML (askl2) Processed - Done
+AutoML (askl2) Processed - Transform - Done
 ExpanseToChameleon (askl2)
-OneToOne - AutoML (askl) Processed
-OneToOne - AutoML (askl) Processed - Transform
-OneToOne - AutoML (askl2) Processed
-OneToOne - AutoML (askl2) Processed - Transform
+OneToOne - AutoML (askl) Processed - Done
+OneToOne - AutoML (askl) Processed - Transform - Done
+OneToOne - AutoML (askl2) Processed - Done
+OneToOne - AutoML (askl2) Processed - Transform - Done
 OneToMany - AutoML (askl) Processed
 OneToMany - AutoML (askl) Processed - Transform
 OneToMany - AutoML (askl2) Processed

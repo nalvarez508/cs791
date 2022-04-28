@@ -1,38 +1,38 @@
 File Trained On,Model,Accuracy,Runtime
 b5000d100.csv,AutoSklearnClassifier(memory_limit=4096, n_jobs=-1, per_run_time_limit=12,
-                      time_left_for_this_task=30),0.9055555555555556
+                      time_left_for_this_task=30),0.7568055555555555
 b5000d30.csv,AutoSklearnClassifier(memory_limit=4096, n_jobs=-1, per_run_time_limit=12,
-                      time_left_for_this_task=30),0.90375
+                      time_left_for_this_task=30),0.8319907407407408
 b100d10.csv,AutoSklearnClassifier(memory_limit=4096, n_jobs=-1, per_run_time_limit=12,
-                      time_left_for_this_task=30),0.5823611111111111
+                      time_left_for_this_task=30),0.6759259259259259
 b1000d10.csv,AutoSklearnClassifier(memory_limit=4096, n_jobs=-1, per_run_time_limit=12,
-                      time_left_for_this_task=30),0.8941203703703704
+                      time_left_for_this_task=30),0.6936574074074074
 b1000d100.csv,AutoSklearnClassifier(memory_limit=4096, n_jobs=-1, per_run_time_limit=12,
-                      time_left_for_this_task=30),0.9238425925925926
+                      time_left_for_this_task=30),0.8081944444444444
 b100d100.csv,AutoSklearnClassifier(memory_limit=4096, n_jobs=-1, per_run_time_limit=12,
-                      time_left_for_this_task=30),0.8803240740740741
+                      time_left_for_this_task=30),0.7100462962962963
 b5000d10.csv,AutoSklearnClassifier(memory_limit=4096, n_jobs=-1, per_run_time_limit=12,
-                      time_left_for_this_task=30),0.9112962962962963
+                      time_left_for_this_task=30),0.7201388888888889
 b1000d30.csv,AutoSklearnClassifier(memory_limit=4096, n_jobs=-1, per_run_time_limit=12,
-                      time_left_for_this_task=30),0.8920833333333333
+                      time_left_for_this_task=30),0.7858333333333334
 b100d30.csv,AutoSklearnClassifier(memory_limit=4096, n_jobs=-1, per_run_time_limit=12,
-                      time_left_for_this_task=30),0.8438425925925926
+                      time_left_for_this_task=30),0.6448148148148148
 File Trained On,Model,Accuracy,Runtime
 b5000d100.csv,AutoSklearnClassifier(memory_limit=4096, n_jobs=-1, per_run_time_limit=12,
-                      time_left_for_this_task=30),0.9055555555555556
+                      time_left_for_this_task=30),0.7568055555555555
 b5000d30.csv,AutoSklearnClassifier(memory_limit=4096, n_jobs=-1, per_run_time_limit=12,
-                      time_left_for_this_task=30),0.90375
+                      time_left_for_this_task=30),0.8237962962962962
 b100d10.csv,AutoSklearnClassifier(memory_limit=4096, n_jobs=-1, per_run_time_limit=12,
-                      time_left_for_this_task=30),0.5823611111111111
+                      time_left_for_this_task=30),0.6759259259259259
 b1000d10.csv,AutoSklearnClassifier(memory_limit=4096, n_jobs=-1, per_run_time_limit=12,
-                      time_left_for_this_task=30),0.8941203703703704
+                      time_left_for_this_task=30),0.6936574074074074
 b1000d100.csv,AutoSklearnClassifier(memory_limit=4096, n_jobs=-1, per_run_time_limit=12,
-                      time_left_for_this_task=30),0.9238425925925926
+                      time_left_for_this_task=30),0.7964351851851852
 b100d100.csv,AutoSklearnClassifier(memory_limit=4096, n_jobs=-1, per_run_time_limit=12,
-                      time_left_for_this_task=30),0.8803240740740741
+                      time_left_for_this_task=30),0.7247222222222223
 b5000d10.csv,AutoSklearnClassifier(memory_limit=4096, n_jobs=-1, per_run_time_limit=12,
-                      time_left_for_this_task=30),0.9112962962962963
+                      time_left_for_this_task=30),0.7268055555555556
 b1000d30.csv,AutoSklearnClassifier(memory_limit=4096, n_jobs=-1, per_run_time_limit=12,
-                      time_left_for_this_task=30),0.8920833333333333
+                      time_left_for_this_task=30),0.7958333333333333
 b100d30.csv,AutoSklearnClassifier(memory_limit=4096, n_jobs=-1, per_run_time_limit=12,
-                      time_left_for_this_task=30),0.8438425925925926
+                      time_left_for_this_task=30),0.6448148148148148
