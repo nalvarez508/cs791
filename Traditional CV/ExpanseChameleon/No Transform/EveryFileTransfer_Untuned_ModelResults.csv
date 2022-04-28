@@ -1,0 +1,11 @@
+Trained On,Tested On,Model,Accuracy
+b1000d35.csv,b1000d60.csv,RandomForestClassifier(),0.6062962962962963
+b1000d35.csv,b1000d60.csv,GradientBoostingClassifier(),0.5544444444444444
+b1000d35.csv,b1000d60.csv,DecisionTreeClassifier(),0.652962962962963
+b1000d35.csv,b1000d60.csv,MLPClassifier(),0.2811111111111111
+b1000d35.csv,b1000d60.csv,LinearSVC(),0.16666666666666666
+b1000d60.csv,b1000d35.csv,RandomForestClassifier(),0.39644312708410523
+b1000d60.csv,b1000d35.csv,GradientBoostingClassifier(),0.49092256391256023
+b1000d60.csv,b1000d35.csv,DecisionTreeClassifier(),0.3693960726194887
+b1000d60.csv,b1000d35.csv,MLPClassifier(),0.3512412004446091
+b1000d60.csv,b1000d35.csv,LinearSVC(),0.3827343460540941

@@ -1,10 +1,10 @@
-File,Model,Accuracy,Std Dev
-b5000d100.csv,AutoSklearnClassifier(memory_limit=4096, n_jobs=-1, time_left_for_this_task=30),0.8988888888888888,0.020170738969170526
-b5000d30.csv,AutoSklearnClassifier(memory_limit=4096, n_jobs=-1, time_left_for_this_task=30),0.9507407407407407,0.014083817290245604
-b100d10.csv,AutoSklearnClassifier(memory_limit=4096, n_jobs=-1, time_left_for_this_task=30),0.9185185185185185,0.007943559477602705
-b1000d10.csv,AutoSklearnClassifier(memory_limit=4096, n_jobs=-1, time_left_for_this_task=30),0.9733333333333333,0.0018885257457751366
-b1000d100.csv,AutoSklearnClassifier(memory_limit=4096, n_jobs=-1, time_left_for_this_task=30),0.9,0.020218287502157314
-b100d100.csv,AutoSklearnClassifier(memory_limit=4096, n_jobs=-1, time_left_for_this_task=30),0.8885185185185186,0.017505633034216966
-b5000d10.csv,AutoSklearnClassifier(memory_limit=4096, n_jobs=-1, time_left_for_this_task=30),0.9285185185185185,0.06324121522515999
-b1000d30.csv,AutoSklearnClassifier(memory_limit=4096, n_jobs=-1, time_left_for_this_task=30),0.6444444444444445,0.3727608043825834
-b100d30.csv,AutoSklearnClassifier(memory_limit=4096, n_jobs=-1, time_left_for_this_task=30),0.9174074074074074,0.011863420280034792
+File,Model,Accuracy,Std Dev,,,,,
+b5000d100.csv,AutoSklearnClassifier(memory_limit=4096, n_jobs=-1, time_left_for_this_task=30),0.898888889,0.020170739,,0.891152263,0.058852889
+b5000d30.csv,AutoSklearnClassifier(memory_limit=4096, n_jobs=-1, time_left_for_this_task=30),0.950740741,0.014083817,,,
+b100d10.csv,AutoSklearnClassifier(memory_limit=4096, n_jobs=-1, time_left_for_this_task=30),0.918518519,0.007943559,,,
+b1000d10.csv,AutoSklearnClassifier(memory_limit=4096, n_jobs=-1, time_left_for_this_task=30),0.973333333,0.001888526,,,
+b1000d100.csv,AutoSklearnClassifier(memory_limit=4096, n_jobs=-1, time_left_for_this_task=30),0.9,0.020218288,,,
+b100d100.csv,AutoSklearnClassifier(memory_limit=4096, n_jobs=-1, time_left_for_this_task=30),0.888518519,0.017505633,,,
+b5000d10.csv,AutoSklearnClassifier(memory_limit=4096, n_jobs=-1, time_left_for_this_task=30),0.928518519,0.063241215,,,
+b1000d30.csv,AutoSklearnClassifier(memory_limit=4096, n_jobs=-1, time_left_for_this_task=30),0.644444444,0.372760804,,,
+b100d30.csv,AutoSklearnClassifier(memory_limit=4096, n_jobs=-1, time_left_for_this_task=30),0.917407407,0.01186342,,,

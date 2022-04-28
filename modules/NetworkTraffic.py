@@ -113,8 +113,18 @@ class NetworkTraffic:
 
 class NT2:
   def __init__(self, filename=None, transform=False, drop=True):
-    self.df = pd.read_csv(filename)
-    self.features = pd.read_csv('../ss_7_features.csv')
+    self.df = pd.DataFrame()
+    if type(filename) == str:
+      self.df = pd.read_csv(filename)
+    elif type(filename) == list:
+      for file in filename:
+        if file.endswith(".csv"):
+          thisFile = pd.read_csv(file)
+          if self.df.empty: self.df = deepcopy(thisFile)
+          else: self.df = pd.concat([self.df, thisFile], ignore_index=True)
+
+    try: self.features = pd.read_csv('../ss_7_features.csv')
+    except: self.features = pd.read_csv("ss_7_features.csv")
     self.feature_list = list(self.features.feature.values)
     self.setup(transform)
     self.data = self.df.drop('label', axis=1)
@@ -132,3 +142,9 @@ class NT2:
 
     self.df.replace([np.inf, -np.inf, np.nan], 0, inplace=True)
     self.df = self.df[self.df.report_sec == 10]
+
+if __name__ == "__main__":
+  import os
+  os.chdir("data")
+  NT2("b100d30.csv")
+  NT2(["b100d30.csv", "b1000d30.csv"])

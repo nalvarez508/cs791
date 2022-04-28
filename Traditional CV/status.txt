@@ -1,0 +1,9 @@
+ExpanseChameleon - Done
+MinMaxScaler - Done
+MMS + Transform - Done
+Transfer - OneToMany - MinMaxScaler - Ready
+Transfer - OneToMany - MinMaxScaler + Transform - Ready
+Transfer - OneToOne - MinMaxScaler - Done
+Transfer - OneToOne - MinMaxScaler + Transform - Ready
+Unprocessed + Transform - Ready
+Unprocessed Data - Ready
