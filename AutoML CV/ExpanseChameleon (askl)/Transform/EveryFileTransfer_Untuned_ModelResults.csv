@@ -1,4 +1,6 @@
-b1000d60.csv,b1000d35.csv,ASKL,0.8421637643571693
-b1000d35.csv,b1000d60.csv,ASKL,0.8533333333333334
-b1000d60.csv,b1000d35.csv,ASKL,0.8421637643571693
-b1000d35.csv,b1000d60.csv,ASKL,0.8533333333333334
+Trained On,Tested On,Model,Accuracy,Runtime
+b1000d60.csv,b1000d35.csv,AutoSklearnClassifier,0.8506854390515005
+b1000d35.csv,b1000d60.csv,AutoSklearnClassifier,0.8314814814814815
+Trained On,Tested On,Model,Accuracy,Runtime
+b1000d60.csv,b1000d35.csv,AutoSklearnClassifier,0.8506854390515005
+b1000d35.csv,b1000d60.csv,AutoSklearnClassifier,0.8314814814814815
