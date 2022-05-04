@@ -1,0 +1,13 @@
+File,CC,Model,Accuracy,
+b1000d60,bbr,AutoSklearn2Classifier(memory_limit=4096; n_jobs=-1; time_left_for_this_task=30),0.99,0.991666667
+b1000d35,bbr,AutoSklearn2Classifier(memory_limit=4096; n_jobs=-1; time_left_for_this_task=30),0.993333333,
+b1000d60,cubic,AutoSklearn2Classifier(memory_limit=4096; n_jobs=-1; time_left_for_this_task=30),0.973333333,0.973333333
+b1000d35,cubic,AutoSklearn2Classifier(memory_limit=4096; n_jobs=-1; time_left_for_this_task=30),0.973333333,
+b1000d60,htcp,AutoSklearn2Classifier(memory_limit=4096; n_jobs=-1; time_left_for_this_task=30),0.956666667,0.97
+b1000d35,htcp,AutoSklearn2Classifier(memory_limit=4096; n_jobs=-1; time_left_for_this_task=30),0.983333333,
+b1000d60,bbr,AutoSklearnClassifier(memory_limit=4096; n_jobs=-1; time_left_for_this_task=30),0.986666667,0.986666667
+b1000d35,bbr,AutoSklearnClassifier(memory_limit=4096; n_jobs=-1; time_left_for_this_task=30),0.986666667,
+b1000d60,cubic,AutoSklearnClassifier(memory_limit=4096; n_jobs=-1; time_left_for_this_task=30),0.973333333,0.973333333
+b1000d35,cubic,AutoSklearnClassifier(memory_limit=4096; n_jobs=-1; time_left_for_this_task=30),0.973333333,
+b1000d60,htcp,AutoSklearnClassifier(memory_limit=4096; n_jobs=-1; time_left_for_this_task=30),0.946666667,0.958333333
+b1000d35,htcp,AutoSklearnClassifier(memory_limit=4096; n_jobs=-1; time_left_for_this_task=30),0.97,
