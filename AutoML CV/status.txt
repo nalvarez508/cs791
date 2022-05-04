@@ -7,7 +7,7 @@ OneToOne - AutoML (askl) Processed - Done
 OneToOne - AutoML (askl) Processed - Transform - Done
 OneToOne - AutoML (askl2) Processed - Done
 OneToOne - AutoML (askl2) Processed - Transform - Done
-OneToMany - AutoML (askl) Processed
-OneToMany - AutoML (askl) Processed - Transform
+OneToMany - AutoML (askl) Processed - Done
+OneToMany - AutoML (askl) Processed - Transform - Done
 OneToMany - AutoML (askl2) Processed
 OneToMany - AutoML (askl2) Processed - Transform
