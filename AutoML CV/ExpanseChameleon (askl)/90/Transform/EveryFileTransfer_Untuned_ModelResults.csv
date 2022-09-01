@@ -1,0 +1,6 @@
+Trained On,Tested On,Model,Accuracy,Runtime
+b1000d60.csv,b1000d35.csv,AutoSklearnClassifier,0.8477213782882549
+b1000d35.csv,b1000d60.csv,AutoSklearnClassifier,0.8118518518518518
+Trained On,Tested On,Model,Accuracy,Runtime
+b1000d60.csv,b1000d35.csv,AutoSklearnClassifier,0.8506854390515005
+b1000d35.csv,b1000d60.csv,AutoSklearnClassifier,0.8118518518518518
