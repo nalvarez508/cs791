@@ -1,0 +1,58 @@
+{
+  "0.4": {
+    "b5000d100.csv": {
+      "AutoSklearn2Classifier(memory_limit=4096, n_jobs=-1,\n                       time_left_for_this_task=300)": {
+        "Accuracy": 0.8366666666666667,
+        "Std Dev": 0.036666666666666625
+      }
+    },
+    "b5000d30.csv": {
+      "AutoSklearn2Classifier(memory_limit=4096, n_jobs=-1,\n                       time_left_for_this_task=300)": {
+        "Accuracy": 0.8744444444444445,
+        "Std Dev": 0.03518518518518521
+      }
+    },
+    "b100d10.csv": {
+      "AutoSklearn2Classifier(memory_limit=4096, n_jobs=-1,\n                       time_left_for_this_task=300)": {
+        "Accuracy": 0.7348148148148148,
+        "Std Dev": 0.04888888888888887
+      }
+    },
+    "b1000d10.csv": {
+      "AutoSklearn2Classifier(memory_limit=4096, n_jobs=-1,\n                       time_left_for_this_task=300)": {
+        "Accuracy": 0.8848148148148148,
+        "Std Dev": 0.012222222222222245
+      }
+    },
+    "b1000d100.csv": {
+      "AutoSklearn2Classifier(memory_limit=4096, n_jobs=-1,\n                       time_left_for_this_task=300)": {
+        "Accuracy": 0.845925925925926,
+        "Std Dev": 0.005185185185185182
+      }
+    },
+    "b100d100.csv": {
+      "AutoSklearn2Classifier(memory_limit=4096, n_jobs=-1,\n                       time_left_for_this_task=300)": {
+        "Accuracy": 0.8118518518518518,
+        "Std Dev": 0.053333333333333344
+      }
+    },
+    "b5000d10.csv": {
+      "AutoSklearn2Classifier(memory_limit=4096, n_jobs=-1,\n                       time_left_for_this_task=300)": {
+        "Accuracy": 0.8618518518518519,
+        "Std Dev": 0.016666666666666663
+      }
+    },
+    "b1000d30.csv": {
+      "AutoSklearn2Classifier(memory_limit=4096, n_jobs=-1,\n                       time_left_for_this_task=300)": {
+        "Accuracy": 0.8633333333333333,
+        "Std Dev": 0.026296296296296318
+      }
+    },
+    "b100d30.csv": {
+      "AutoSklearn2Classifier(memory_limit=4096, n_jobs=-1,\n                       time_left_for_this_task=300)": {
+        "Accuracy": 0.8533333333333333,
+        "Std Dev": 0.0155555555555556
+      }
+    }
+  }
+}

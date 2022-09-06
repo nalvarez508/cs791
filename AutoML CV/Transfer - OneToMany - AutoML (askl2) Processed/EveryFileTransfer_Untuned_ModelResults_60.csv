@@ -1,0 +1,20 @@
+File Trained On,Model,Accuracy,Runtime
+b5000d100.csv,AutoSklearn2Classifier,0.934212962962963
+b5000d30.csv,AutoSklearn2Classifier,0.9269907407407407
+b100d10.csv,AutoSklearn2Classifier,0.7266666666666667
+b1000d10.csv,AutoSklearn2Classifier,0.9025462962962963
+b1000d100.csv,AutoSklearn2Classifier,0.9238888888888889
+b100d100.csv,AutoSklearn2Classifier,0.9104629629629629
+b5000d10.csv,AutoSklearn2Classifier,0.9113425925925925
+b1000d30.csv,AutoSklearn2Classifier,0.9241666666666667
+b100d30.csv,AutoSklearn2Classifier,0.9200925925925926
+File Trained On,Model,Accuracy,Runtime
+b5000d100.csv,AutoSklearn2Classifier,0.932962962962963
+b5000d30.csv,AutoSklearn2Classifier,0.9234259259259259
+b100d10.csv,AutoSklearn2Classifier,0.7402314814814814
+b1000d10.csv,AutoSklearn2Classifier,0.86125
+b1000d100.csv,AutoSklearn2Classifier,0.9201388888888888
+b100d100.csv,AutoSklearn2Classifier,0.8955555555555555
+b5000d10.csv,AutoSklearn2Classifier,0.9133333333333333
+b1000d30.csv,AutoSklearn2Classifier,0.9113425925925925
+b100d30.csv,AutoSklearn2Classifier,0.8748148148148148

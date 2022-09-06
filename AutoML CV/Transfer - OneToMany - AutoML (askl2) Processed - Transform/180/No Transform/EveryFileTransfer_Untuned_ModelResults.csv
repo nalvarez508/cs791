@@ -1,0 +1,10 @@
+File Trained On,Model,Accuracy,Runtime
+b5000d100.csv,AutoSklearn2Classifier,0.6783796296296296
+b5000d30.csv,AutoSklearn2Classifier,0.6927314814814814
+b100d10.csv,AutoSklearn2Classifier,0.7360185185185185
+b1000d10.csv,AutoSklearn2Classifier,0.7243055555555555
+b1000d100.csv,AutoSklearn2Classifier,0.6618518518518518
+b100d100.csv,AutoSklearn2Classifier,0.6601851851851852
+b5000d10.csv,AutoSklearn2Classifier,0.7286574074074074
+b1000d30.csv,AutoSklearn2Classifier,0.7135185185185186
+b100d30.csv,AutoSklearn2Classifier,0.7344907407407407

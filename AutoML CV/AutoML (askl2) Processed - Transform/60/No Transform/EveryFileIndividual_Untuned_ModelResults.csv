@@ -1,0 +1,10 @@
+File,Model,Accuracy,Std Dev
+b5000d100.csv,AutoSklearn2Classifier(memory_limit=4096, n_jobs=-1, time_left_for_this_task=60),0.9059259259259259,0.03259259259259262
+b5000d30.csv,AutoSklearn2Classifier(memory_limit=4096, n_jobs=-1, time_left_for_this_task=60),0.9074074074074074,0.03037037037037038
+b100d10.csv,AutoSklearn2Classifier(memory_limit=4096, n_jobs=-1, time_left_for_this_task=60),0.875925925925926,0.03666666666666668
+b1000d10.csv,AutoSklearn2Classifier(memory_limit=4096, n_jobs=-1, time_left_for_this_task=60),0.9562962962962962,0.03925925925925927
+b1000d100.csv,AutoSklearn2Classifier(memory_limit=4096, n_jobs=-1, time_left_for_this_task=60),0.9162962962962964,0.029629629629629617
+b100d100.csv,AutoSklearn2Classifier(memory_limit=4096, n_jobs=-1, time_left_for_this_task=60),0.9233333333333333,0.02259259259259261
+b5000d10.csv,AutoSklearn2Classifier(memory_limit=4096, n_jobs=-1, time_left_for_this_task=60),0.9255555555555556,0.024814814814814845
+b1000d30.csv,AutoSklearn2Classifier(memory_limit=4096, n_jobs=-1, time_left_for_this_task=60),0.8981481481481481,0.0062962962962963
+b100d30.csv,AutoSklearn2Classifier(memory_limit=4096, n_jobs=-1, time_left_for_this_task=60),0.9007407407407407,0.005185185185185182
