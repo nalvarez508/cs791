@@ -1,0 +1,58 @@
+{
+  "0.4": {
+    "b5000d100.csv": {
+      "AutoSklearn2Classifier(memory_limit=4096, n_jobs=-1, time_left_for_this_task=30)": {
+        "Accuracy": 0.8340740740740741,
+        "Std Dev": 0.034814814814814854
+      }
+    },
+    "b5000d30.csv": {
+      "AutoSklearn2Classifier(memory_limit=4096, n_jobs=-1, time_left_for_this_task=30)": {
+        "Accuracy": 0.8707407407407407,
+        "Std Dev": 0.023333333333333317
+      }
+    },
+    "b100d10.csv": {
+      "AutoSklearn2Classifier(memory_limit=4096, n_jobs=-1, time_left_for_this_task=30)": {
+        "Accuracy": 0.7255555555555555,
+        "Std Dev": 0.0440740740740741
+      }
+    },
+    "b1000d10.csv": {
+      "AutoSklearn2Classifier(memory_limit=4096, n_jobs=-1, time_left_for_this_task=30)": {
+        "Accuracy": 0.875925925925926,
+        "Std Dev": 0.01740740740740737
+      }
+    },
+    "b1000d100.csv": {
+      "AutoSklearn2Classifier(memory_limit=4096, n_jobs=-1, time_left_for_this_task=30)": {
+        "Accuracy": 0.8577777777777778,
+        "Std Dev": 0.02148148148148149
+      }
+    },
+    "b100d100.csv": {
+      "AutoSklearn2Classifier(memory_limit=4096, n_jobs=-1, time_left_for_this_task=30)": {
+        "Accuracy": 0.8114814814814815,
+        "Std Dev": 0.05962962962962959
+      }
+    },
+    "b5000d10.csv": {
+      "AutoSklearn2Classifier(memory_limit=4096, n_jobs=-1, time_left_for_this_task=30)": {
+        "Accuracy": 0.8640740740740741,
+        "Std Dev": 0.01518518518518519
+      }
+    },
+    "b1000d30.csv": {
+      "AutoSklearn2Classifier(memory_limit=4096, n_jobs=-1, time_left_for_this_task=30)": {
+        "Accuracy": 0.8585185185185185,
+        "Std Dev": 0.02740740740740738
+      }
+    },
+    "b100d30.csv": {
+      "AutoSklearn2Classifier(memory_limit=4096, n_jobs=-1, time_left_for_this_task=30)": {
+        "Accuracy": 0.8581481481481481,
+        "Std Dev": 0.01222222222222219
+      }
+    }
+  }
+}
