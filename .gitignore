@@ -130,3 +130,7 @@ dmypy.json
 .DS_Store
 *-jvsc*
 *.goutputstream*
+
+*.csv
+!ss_7_features.csv
+!data/*.csv
