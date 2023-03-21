@@ -1,1 +1,0 @@
-{"AutoSklearnRegressor(memory_limit=4096, n_jobs=-1, time_left_for_this_task=30)": {"Accuracy": -0.07353293800397447, "Std Dev": 0.030483157227699845}}{"AutoSklearnRegressor(memory_limit=4096, n_jobs=-1, time_left_for_this_task=30)": {"Accuracy": -0.12455980248892501, "Std Dev": 0.0655360599069241}}

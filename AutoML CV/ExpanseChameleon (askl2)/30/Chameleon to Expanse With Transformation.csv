@@ -1,7 +1,0 @@
-Transfer,CC,Model,Accuracy,
-chameleon -> expanse,cubic,AutoSklearnClassifier(memory_limit=4096; n_jobs=-1; per_run_time_limit=12;                      time_left_for_this_task=30),83.52,0.8352
-chameleon -> expanse,htcp,AutoSklearnClassifier(memory_limit=4096; n_jobs=-1; per_run_time_limit=12;                      time_left_for_this_task=30),84.81,0.8481
-chameleon -> expanse,bbr,AutoSklearnClassifier(memory_limit=4096; n_jobs=-1; per_run_time_limit=12;                      time_left_for_this_task=30),94.41,0.9441
-chameleon -> expanse,cubic,AutoSklearn2Classifier(memory_limit=4096; metric=accuracy; n_jobs=-1;                       per_run_time_limit=12; time_left_for_this_task=30),80.11,0.8011
-chameleon -> expanse,htcp,AutoSklearn2Classifier(memory_limit=4096; metric=accuracy; n_jobs=-1;                       per_run_time_limit=12; time_left_for_this_task=30),85.93,0.8593
-chameleon -> expanse,bbr,AutoSklearn2Classifier(memory_limit=4096; metric=accuracy; n_jobs=-1;                       per_run_time_limit=12; time_left_for_this_task=30),94.74,0.9474
