@@ -134,3 +134,4 @@ dmypy.json
 *.csv
 !ss_7_features.csv
 !data/*.csv
+*.json
