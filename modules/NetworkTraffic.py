@@ -127,9 +127,7 @@ class NT2:
     except: self.features = pd.read_csv("ss_7_features.csv")
     self.feature_list = list(self.features.feature.values)
     self.setup(transform)
-    self.data = self.df.drop('label', axis=1)
-    self.data = self.df.drop('report_sec', axis=1)
-    self.data = self.df.drop('transfer_id', axis=1)
+    self.data = self.df.drop(['label', 'report_sec', 'transfer_id'], axis=1)
     if drop: self.data = self.data[self.feature_list]
     self.target = self.df.label
   
