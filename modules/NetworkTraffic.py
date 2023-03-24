@@ -129,7 +129,7 @@ class NT2:
     self.setup(transform)
     self.data = self.df.drop(['label', 'report_sec', 'transfer_id'], axis=1)
     if drop: self.data = self.data[self.feature_list]
-    self.target = self.df.label
+    self.target = preprocessing.LabelEncoder().fit_transform(self.df.label)
   
   def setup(self, t):
     self.df = self.df.sort_values(by=['label']).reset_index().drop(columns=["index"])
